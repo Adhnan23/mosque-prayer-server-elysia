@@ -22,7 +22,7 @@ export const settingsTable = sqliteTable(
       .notNull()
       .default(false),
 
-    primary_color: text("primary_color").notNull().default("#ff8000"),
+    primary_color: text("primary_color").notNull().default("#00CFFF"),
     secondary_color: text("secondary_color").notNull().default("#ffff00"),
     accent_color: text("accent_color").notNull().default("#00ff40"),
     background_color: text("background_color").notNull().default("#000000"),
@@ -37,7 +37,7 @@ export const settingsTable = sqliteTable(
     check("accent_hex", sql`${table.accent_color} LIKE '#%'`),
     check("bg_hex", sql`${table.background_color} LIKE '#%'`),
     check("fg_hex", sql`${table.foreground_color} LIKE '#%'`),
-  ]
+  ],
 );
 
 const Settings = {

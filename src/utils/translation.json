@@ -1,5 +1,4 @@
 [
-
   {
     "language_code": "en",
     "category": "mosque",
@@ -352,7 +351,7 @@
     "language_code": "ta",
     "category": "prayer_names",
     "key": "fajr",
-    "value": "ஃபஜ்ர்"
+    "value": "சுபஹ்"
   },
   {
     "language_code": "ta",
@@ -370,7 +369,7 @@
     "language_code": "ta",
     "category": "prayer_names",
     "key": "asr",
-    "value": "அஸ்ர்"
+    "value": "அஸர்"
   },
   {
     "language_code": "ta",
